@@ -3,7 +3,7 @@ name: 🚀 Build & Deploy to Main
 on:
   push:
     branches:
-      - main
+      - dev
 
 jobs:
   build-and-deploy:
