@@ -20,11 +20,6 @@ spring:
     redis:
       host: ${AWS_REDIS_URL}
       port: ${AWS_REDIS_PORT}
-      lettuce:
-        pool:
-          max-active: 8
-          max-idle: 8
-          min-idle: 0
 
 oauth:
   google:
